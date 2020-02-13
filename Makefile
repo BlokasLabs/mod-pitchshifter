@@ -29,7 +29,7 @@ clean:
 	$(MAKE) -C Harmonizer2 clean
 	$(MAKE) -C HarmonizerCS clean
 	rm -f Shared_files/*.o
-	rm -f Shared_files/harmonizer.wisdom
+#	rm -f Shared_files/harmonizer.wisdom
 
 Shared_files/harmonizer.wisdom:
 	@echo "Generating harmonizer.wisdom file, this might take a while..."
